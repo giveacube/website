@@ -107,17 +107,12 @@
     {
         "path": "/authors/josh-cooley/index.html",
         "type": "file",
-        "md5": "18140053812d44dd94d7cb419921c094"
-    },
-    {
-        "path": "giveacube.html",
-        "type": "file",
-        "md5": "50d1ab6bf4d0945c4dc0bfbba3fa1942"
+        "md5": "4fa13723985e49b7df2a2b55e51491ec"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "8cbc281b36709a04e456cbc003c906b8"
+        "md5": "c4f981406042f89efd28152378a61a10"
     },
     {
         "path": "robots.txt",
