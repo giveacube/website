@@ -107,12 +107,72 @@
     {
         "path": "/authors/josh-cooley/index.html",
         "type": "file",
-        "md5": "a67d4562282065748a91245c6ea283ec"
+        "md5": "7b69b6c44f1c0b94e43b5701e933a9a2"
+    },
+    {
+        "path": "bonnaroo-2021-announcement.html",
+        "type": "file",
+        "md5": "a79d1114bcf5d3432c2ea274130087cc"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "f7e9690c66388e8b390e0f7db096eafd"
+        "md5": "1ca8a11431230039b7372fa8268aabc8"
+    },
+    {
+        "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/3",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/3/PXL_20210424_211136788.jpg",
+        "type": "file",
+        "md5": "e5e04c0592e4867fd86c9db0bcec548f"
+    },
+    {
+        "path": "media/posts/3/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/3/responsive/PXL_20210424_211136788-2xl.jpg",
+        "type": "file",
+        "md5": "4c3efc6b1a0c8518dc7e0fe28baf8ab6"
+    },
+    {
+        "path": "/media/posts/3/responsive/PXL_20210424_211136788-lg.jpg",
+        "type": "file",
+        "md5": "7f86b1563302c802de12e95977e9a257"
+    },
+    {
+        "path": "/media/posts/3/responsive/PXL_20210424_211136788-md.jpg",
+        "type": "file",
+        "md5": "7e0865407b72ac50a7a8f42a594bdc5a"
+    },
+    {
+        "path": "/media/posts/3/responsive/PXL_20210424_211136788-sm.jpg",
+        "type": "file",
+        "md5": "2c70911f8034373aa7ff8a6969b679e1"
+    },
+    {
+        "path": "/media/posts/3/responsive/PXL_20210424_211136788-xl.jpg",
+        "type": "file",
+        "md5": "bfaaa96130918e481fb5835fee3d89c1"
+    },
+    {
+        "path": "/media/posts/3/responsive/PXL_20210424_211136788-xs.jpg",
+        "type": "file",
+        "md5": "abd5797bcb8352151a1460a849ff0740"
     },
     {
         "path": "robots.txt",
@@ -130,8 +190,28 @@
         "md5": false
     },
     {
+        "path": "tags/bonnaroo",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/bonnaroo/index.html",
+        "type": "file",
+        "md5": "edb33282c70fb5e623076b51111e2919"
+    },
+    {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "3c1f5ed5b6802360bf7909af827b7a70"
+        "md5": "be1bc9c3f3f79ecf1bdf7467149003e5"
+    },
+    {
+        "path": "tags/roocubes",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/roocubes/index.html",
+        "type": "file",
+        "md5": "8ff733b78ee969c78b97c6de0442d414"
     }
 ]
