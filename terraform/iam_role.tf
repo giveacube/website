@@ -7,7 +7,10 @@ resource "aws_iam_role" "deployer" {
       "Effect": "Allow",
       "Principal": {
         "AWS": "${aws_iam_user.deployer.arn}",
-        "Service": "codepipeline.amazonaws.com"
+        "Service": [
+          "codebuild.amazonaws.com",
+          "codepipeline.amazonaws.com"
+        ]
       }
     }
   ],

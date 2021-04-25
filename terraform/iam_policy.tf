@@ -222,10 +222,16 @@ resource "aws_iam_policy" "deployment" {
         "cloudfront:DeleteDistribution",
         "cloudfront:TagResource", 
         "cloudfront:UpdateDistribution",
+        "codebuild:CreateProject",
+        "codebuild:UpdateProject",
         "iam:Attach*Policy",
         "iam:CreatePolicy*",
         "iam:DeletePolicy*",
-        "iam:Detach*Policy"
+        "iam:Detach*Policy",
+        "iam:UpdateAssumeRolePolicy",
+        "logs:CreateLogGroup",
+        "logs:CreateLogStream",
+        "logs:PutLogEvents"
       ],
       "Effect": "Allow",
       "Resource": "*"
