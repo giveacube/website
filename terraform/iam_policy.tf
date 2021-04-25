@@ -212,8 +212,16 @@ resource "aws_iam_policy" "deployment" {
   "Statement": [
     {
       "Action": [
-        "cloudfront:UpdateDistribution",
+        "acm:AddTagsToCertificate",
+        "acm:DeleteCertificate",
+        "acm:RequestCertificate",
+        "cloudfront:CreateCloudFrontOriginAccessIdentity",
+        "cloudfront:CreateDistribution",
         "cloudfront:CreateInvalidation",
+        "cloudfront:DeleteCloudFrontOriginAccessIdentity",
+        "cloudfront:DeleteDistribution",
+        "cloudfront:TagResource", 
+        "cloudfront:UpdateDistribution",
         "iam:Attach*Policy",
         "iam:CreatePolicy*",
         "iam:DeletePolicy*",

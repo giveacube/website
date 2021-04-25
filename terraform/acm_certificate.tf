@@ -11,5 +11,9 @@ resource "aws_acm_certificate" "giveacube-website" {
     "www.giveacube.org",
   ]
 
+  tags = {
+    Name = "giveacube.com"
+  }
+
   validation_method = "DNS"
 }
