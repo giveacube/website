@@ -20,7 +20,7 @@ resource "aws_cloudfront_distribution" "giveacube-website" {
   is_ipv6_enabled     = "true"
 
   origin {
-    domain_name = "giveacube-website.s3.amazonaws.com"
+    domain_name = aws_s3_bucket.giveacube-website.bucket_domain_name
     origin_id   = "S3-giveacube-website"
     origin_path = "/static"
 

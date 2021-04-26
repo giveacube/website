@@ -18,7 +18,6 @@ run_terraform(){
 }
 
 upload_to_s3(){
-
   aws s3 cp --only-show-errors --recursive ./static s3://giveacube-website/
 }
 
