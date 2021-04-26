@@ -12,8 +12,8 @@ install_terraform(){
 
 run_terraform(){
   cd ./terraform
-  ./terraform init
-  ./terraform apply
+  ./terraform init -no-color
+  ./terraform apply -auto-approve -no-color
   cd - &> /dev/null
 }
 
@@ -24,7 +24,7 @@ upload_to_s3(){
 
 create_cloudfront_invalidation(){
   cd ./terraform
-  id=$(./terraform output giveacube-website-cf-dist-id)
+  id=$(./terraform output -no-color giveacube-website-cf-dist-id)
   aws cloudfront create-invalidation --distribution-id "$id" --path '/*'
   cd - &> /dev/null
 }
