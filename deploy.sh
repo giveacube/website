@@ -4,7 +4,7 @@ set -o errexit
 install_terraform(){
   cd ./terraform
   curl --fail --output tf.zip --silent \
-    "https://releases.hashicorp.com/terraform/0.13.5/terraform_0.13.5_linux_amd64.zip"
+    "https://releases.hashicorp.com/terraform/0.13.6/terraform_0.13.6_linux_amd64.zip"
   unzip -qo tf.zip
   chmod +x tf.zip
   cd - &> /dev/null
